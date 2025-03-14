@@ -18,7 +18,7 @@ while [ $nAttempt -gt 0 ]; do
 		
 	elif [[ "$user_name" == "$username" && "$pass_word" == "$password" ]]
 	then
-		echo "user and pass are correct, enter..."
+		echo "user and pass are correct, entering..."
 		sleep 2
 		break
 	fi
